@@ -7,6 +7,7 @@
     <groupId>com.lynn</groupId>
     <artifactId>news</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>common</module>
         <module>register</module>
@@ -14,6 +15,7 @@
         <module>gateway</module>
         <module>client</module>
     </modules>
+
     <packaging>pom</packaging>
     <description>新闻门户网站parent项目，引入公共依赖</description>
 
@@ -23,11 +25,13 @@
         <version>2.1.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -42,7 +46,7 @@
         </dependencies>
     </dependencyManagement>
 
-    <repositories>
+    <!--<repositories>
         <repository>
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
@@ -51,6 +55,6 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
-    </repositories>
+    </repositories>-->
 
 </project>
